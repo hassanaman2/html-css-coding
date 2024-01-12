@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registry</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(212, 212, 91);">
+    <a href="file:///C:/Users/hp/OneDrive/Desktop/aman/home/forms.html">
+    <img src="C:\Users\hp\OneDrive\Desktop\aman\images\arow-removebg-preview.png" alt="Back link" width="40px" height="40px"></a>
+    <br><br><br>
+    <center><img src="C:\Users\hp\OneDrive\Desktop\aman\images\download-removebg-preview.png" alt="SMIT"></center>
+    <br><br><br>
+    <h1>STUDENT REGISTRATION FORM</h1>
+    <form action="backend.php">
+    <div>
+    <label style="margin-left: 30%;" for="First Name">FIRST NAME</label>
+ <input style="margin-left: 5%;" type="text" placeholder="Enter the First Name" name="First Name" id="firstN"> (max 30 characters a-z and A-Z)
+    </div>
+<br>
+    <div>
+        <label style="margin-left: 30%;" for="Last Name">LAST NAME</label>
+        <input style="margin-left: 5%;" type="text" placeholder="Enter the Last Name" name="Last Name" id="LastN">(max 30 characters a-z and A-Z)
+    </div>
+<br>   
+    <div>
+        <label style="margin-left: 30%;" for="birth">DATE OF BIRTH</label>
+        <input style="margin-left: 3.2%;" type="date" name="birth" id="birthD">
+    </div>
+<br>  
+    <div>
+        <label style="margin-left: 30%;" for="email">EMAIL Id</label>
+        <input style="margin-left: 6.5%;" type="email" placeholder="Enter the Email Address"  name="email" id="emailE">
+    </div>    
+<br>
+    <div>
+        <label style="margin-left: 30%;" for="mobile">MOBILE NUMBER</label>
+        <input style="margin-left: 2%;" type="number" placeholder="Enter the Mobile Number" name="mobile" id="mobileN">(10 Digits Numbers )
+    </div>
+<br>    
+    <div>
+       <label style="margin-left: 30%;" for="GENDER">GENDER</label>
+       <input style="margin-left: 6.5%;"  type="radio" name="GENDER" id="FEM" value="F">
+       <label  for="FEMALE">FEMALE</label>
+       <input type="radio" name="GENDER" id="MAL" value="M">
+       <label for="MALE">MALE</label>
+    </div>
+<br>    
+    <div>
+        <label style="margin-left: 30%;" for="Address">Address</label>
+       <textarea style="margin-left:7.5%;" name="Address" id="ADD" cols="30" rows="5"></textarea>
+    </div>
+<br>    
+    <div>
+        <label style="margin-left: 30%;" for="CITY">CITY</label>
+        <input style="margin-left: 8.5%;" type="text" placeholder="Enter the City Name" name="CITY" id="CITYY">(max 30 characters a-z and A-Z)
+    </div>
+<br>    
+    <div>
+        <label style="margin-left: 30%;" for="Code">PIN CODE</label>
+        <input style="margin-left: 6%;" type="number" placeholder="Enter the Pin Code" name="Code" id="CODE">(6 Digits Numbers)
+    </div>
+<br>    
+    <div>
+        <label style="margin-left: 30%;" for="State">STATE</label>
+        <input style="margin-left: 7.75%;" type="text" placeholder="Enter the State" name="State" id="STATE">(max 30 characters a-z and A-Z)
+    </div>
+<br>    
+    <div>
+        <label style="margin-left: 30%;" for="Country">COUNTRY</label>
+        <input style="margin-left: 5.75%;" type="text" placeholder="Enter the Country Name" name="Country" id="COUNTRY">
+    </div>
+<br>    
+    <div>
+        <label style="margin-left: 30%;" for="Hobbies">HOBBIES</label>
+        <input style="margin-left: 6%;" type="checkbox" name="Hobbies" id="HOBBIES" value="Dancing">Dancing
+        <input type="checkbox" name="Hobbies" id="HOBBIES" value="Singing">Singing
+        <input type="checkbox" name="Hobbies" id="HOBBIES" value="Drawing">Drawing
+        <input type="checkbox" name="Hobbies" id="HOBBIES" value="Sketching">Sketching
+        <input type="checkbox" name="Hobbies" id="HOBBIES" value="Others">Others
+    </div>
+<br>
+    <div>
+<table style="margin-left: 29%;" widht="400" cellpadding="10" cellspacing="05">
+    <tr>
+        <th >QUALIFICATION</th>
+        <th>SI.NO. Examination</th>
+        <th>Board</th>
+        <th>Percentage</th>
+        <th>Years of passing</th>
+    </tr>
+    <tr>
+        <td></td>
+        <td> Class X</td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td> Class XII</td> 
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>GRADUATIONS</td>    
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>MASTERS</td>   
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td class="aman1">(10 char max)</td>
+        <td class="aman1">upto 2 decimal</td>
+        <td></td>
+    </tr>
+</table>
+    </div>
+
+    <div>
+        <label style="margin-left: 30%;" for="courses">COURSES APPLIED FOR</label>
+        <select style="margin-left: 3.5%;" name="courses" id="COURSES" size="1" >
+            <option value="course" class="taha">Select any course</option>
+            <option value="course">BCA</option>
+            <option value="course">B.sc</option>
+            <option value="course">B.A</option>
+            <option value="course">B.com</option>
+        </select> 
+    </div>
+    <br>
+    <div>
+        <label style="margin-left: 30%;" for="image">Upload your Pic <br><label style="margin-left: 30%;"> (only .png,.jpg,.jpeg formats allow)</label></label>
+        <input type="file" name="" id="FILE">
+    </div>
+    <br><br>
+    <input style="margin-left: 60%;" type="submit" id="SUBMIT">
+    <input style="margin-left: 3%;" type="reset" id="aman2">
+</form>
+<br><br><br>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
